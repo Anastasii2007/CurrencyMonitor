@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CurrencyMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7d8f98901d45d0eb3a6b0c65e033195a109f4b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CurrencyMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CurrencyMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

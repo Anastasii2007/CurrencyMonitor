@@ -30,3 +30,4 @@ D:\Raider\rider_projects\CurrencyMonitor1\CurrencyMonitor\obj\Debug\net9.0\refin
 D:\Raider\rider_projects\CurrencyMonitor1\CurrencyMonitor\obj\Debug\net9.0\CurrencyMonitor.pdb
 D:\Raider\rider_projects\CurrencyMonitor1\CurrencyMonitor\obj\Debug\net9.0\CurrencyMonitor.genruntimeconfig.cache
 D:\Raider\rider_projects\CurrencyMonitor1\CurrencyMonitor\obj\Debug\net9.0\ref\CurrencyMonitor.dll
+D:\Raider\rider_projects\CurrencyMonitor1\CurrencyMonitor\obj\Debug\net9.0\CurrencyMonitor.sourcelink.json

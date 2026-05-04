@@ -36,5 +36,26 @@ namespace CurrencyMonitor.Controllers
 
             return Ok(response);
         }
+        
+        [HttpGet("convert")]
+        public async Task<ActionResult<ConversionResponse>> Convert(
+            [FromQuery] string from = "USD", 
+            [FromQuery] string to = "UAH", 
+            [FromQuery] decimal amount = 100)
+        {
+            if (amount <= 0)
+            {
+                return BadRequest("Сума має бути більшою за нуль.");
+            }
+
+            var result = await _aggregator.ConvertCurrencyAsync(from, to, amount);
+
+            if (result.Results.Count == 0)
+            {
+                Console.WriteLine("Абіба");
+                return NotFound("Не вдалося знайти курси для вказаних валют у жодному банку.");
+            }
+            return Ok(result);
+        }
     }
 }
